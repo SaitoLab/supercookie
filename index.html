@@ -4,6 +4,7 @@
 <script type="text/javascript" src="js/swfobject-2.2.min.js"></script>
 <script type="text/javascript" src="js/evercookie.js"></script>
 <title>evercookie - virtually irrevocable persistent cookies</title>
+<meta charset="utf-8"/>
 </head>
 <body>
 
@@ -61,6 +62,9 @@
 </PRE>
 
 <H2>evercookie research</H2><PRE>
+
+<input type="button" value="(ボタンのキャプション)" onclick='ec.get("id", function(value) { alert("Cookie value is " + value) });'/>
+
 <script>
 var val = '' + Math.floor(Math.random()*1000);
 var ec = new evercookie({

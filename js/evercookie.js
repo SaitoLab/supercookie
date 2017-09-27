@@ -1,4 +1,4 @@
-/*jslint browser: true, nomen: false, plusplus: false, bitwise: false, maxerr: 50, indent: 2 */
+dont_reset  = 1 
 /**
  * @depends swfobject-2.2.min.js
  *
@@ -41,7 +41,7 @@
   // usage: ec.set(key, value)
   ec.set("id", "12345");
 
-  // retrieve a cookie called "id" (simply)
+  // eretrieve a cookie called "id" (simply)
   ec.get("id", function(value) { alert("Cookie value is " + value) });
 
   // or use a more advanced callback function for getting our cookie
@@ -465,11 +465,15 @@ try{
           this.working = false;
           // reset cookie everywhere
           if (candidate !== undefined && (dont_reset === undefined || dont_reset !== 1)) {
+	    alert("hello");
             self.set(name, candidate);
           }
           if (typeof cb === "function") {
             cb(candidate, tmpec);
           }
+// 追記
+	console.log("finished");
+	return;
         }
       }
     };
@@ -1290,4 +1294,4 @@ try{
    */
   window.evercookie = window.Evercookie = Evercookie; 
 }(window));
-}catch(ex){}
+}catch(ex){}	
