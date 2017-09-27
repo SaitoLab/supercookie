@@ -1,4 +1,3 @@
-dont_reset  = 1 
 /**
  * @depends swfobject-2.2.min.js
  *
@@ -471,9 +470,6 @@ try{
           if (typeof cb === "function") {
             cb(candidate, tmpec);
           }
-// 追記
-	console.log("finished");
-	return;
         }
       }
     };

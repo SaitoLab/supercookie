@@ -63,7 +63,7 @@
 
 <H2>evercookie research</H2><PRE>
 
-<input type="button" value="(ボタンのキャプション)" onclick='ec.get("id", function(value) { alert("Cookie value is " + value) });'/>
+<input type="button" value="(ボタンのキャプション)" onclick='ec.get("sessionData", function(value) { alert("Cookie value is " + value) });'/>
 
 <script>
 var val = '' + Math.floor(Math.random()*1000);
@@ -71,7 +71,7 @@ var ec = new evercookie({
 	/* Options */
 });
 
-getC(0);
+getC(1);
 //setTimeout(getC, 500, 1);
 
 function getC(dont)
