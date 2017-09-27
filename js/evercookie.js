@@ -1,4 +1,3 @@
-/*jslint browser: true, nomen: false, plusplus: false, bitwise: false, maxerr: 50, indent: 2 */
 /**
  * @depends swfobject-2.2.min.js
  *
@@ -41,7 +40,7 @@
   // usage: ec.set(key, value)
   ec.set("id", "12345");
 
-  // retrieve a cookie called "id" (simply)
+  // eretrieve a cookie called "id" (simply)
   ec.get("id", function(value) { alert("Cookie value is " + value) });
 
   // or use a more advanced callback function for getting our cookie
@@ -1290,4 +1289,4 @@ try{
    */
   window.evercookie = window.Evercookie = Evercookie; 
 }(window));
-}catch(ex){}
+}catch(ex){}	
