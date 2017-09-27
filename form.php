@@ -8,7 +8,8 @@
 
 <h1>supercookie採取テストページ</h1>
 
-  入力フォーム:<br>
+
+  名前:<br>
 <form method="post">
 <select name="data">
 <option value="選択してください">選択してください</option>
@@ -32,7 +33,17 @@
 <option value="Siokawa">Siokawa</option>
 <option value="Naito">Naito</option>
 <option value="Tei">Tei</option>
+<option value="Yokoyama">Uno</option>
+<option value="Koshiba">Ishiwatari</option>
+<option value="Saito">Suzuki</option>
+<option value="Noda">Houjo</option>
+<option value="Yanagisawa">Hori</option>
+<option value="Kim">Hosono</option>
+<option value="Nakamura">Kikuta</option>
+<option value="Siokawa">Maki</option>
 <option value="Others">Others</option>
+<label>name</label>
+<input type="text" name="user">
 <input type="submit" value="送信">
 </form>
 </body>
