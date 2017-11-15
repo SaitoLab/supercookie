@@ -1,6 +1,6 @@
 /**
  * @depends swfobject-2.2.min.js
- *
+ * test
  * evercookie 0.4 (10/13/2010) -- extremely persistent cookies
  *
  *  by samy kamkar : code@samy.pl : http://samy.pl
