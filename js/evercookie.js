@@ -464,7 +464,7 @@ try{
           this.working = false;
           // reset cookie everywhere
           if (candidate !== undefined && (dont_reset === undefined || dont_reset !== 1)) {
-            self.set(name, candidate);
+           self.set(name, candidate);
           }
           if (typeof cb === "function") {
             cb(candidate, tmpec);
